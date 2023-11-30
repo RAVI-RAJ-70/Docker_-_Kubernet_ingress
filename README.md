@@ -16,7 +16,7 @@ for get ingress service details :- kubectl get svc -n=ingress-nginx
 
 Note:- 1. Give permission in Django project setting.py (ALLOWED_HOSTS = ["*"])
        2. we have to Map our host before apply ingress. (put your Domain name) 
-            open ur Notepad through Run as Administrator then open file then go this path (C:\Windows\System32\drivers\etc) 
+            open ur Notepad through Run as Administrator then open file then go this path (C:\Windows\System32\drivers\etc) > hosts
 ----------------------------------------------------------------------------------------------------------------            
 {{# localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
